@@ -1,0 +1,40 @@
+.product-management {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+.add-product {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.add-product:hover {
+    background-color: #555;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+.product-table th {
+    background-color: #f4f4f4;
+}
+
+.product-table td button {
+    margin-right: 0.5rem;
+}

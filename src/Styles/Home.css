@@ -1,0 +1,13 @@
+.banner {
+    background-color: #eee;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}

@@ -1,0 +1,27 @@
+.user-management {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+.user-table th {
+    background-color: #f4f4f4;
+}
+
+.user-table td button {
+    margin-right: 0.5rem;
+}
